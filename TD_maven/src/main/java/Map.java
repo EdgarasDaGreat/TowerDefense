@@ -70,10 +70,10 @@ public class Map {
         int[] start = findStart();
         int[] end = findEnd();
         if (start == null) {
-            Renderer.renderErrorMessage("java.Map incomplete! missing start \"S\"");
+            Renderer.renderErrorMessage("Map incomplete! missing start \"S\"");
             System.exit(1);
         }else if (end == null) {
-            Renderer.renderErrorMessage("java.Map incomplete! missing end \"E\"");
+            Renderer.renderErrorMessage("Map incomplete! missing end \"E\"");
             System.exit(1);
         }
 
@@ -93,7 +93,7 @@ public class Map {
 
             int[] next = findNextStep(currentRow, currentCol, visited);
             if (next == null) {
-            Renderer.renderErrorMessage("java.Map incomplete! Path is not complete");
+            Renderer.renderErrorMessage("Map incomplete! Path is not complete");
                 System.exit(1);
             }
 

@@ -88,7 +88,7 @@ public class Renderer {
         renderMoneyAndHealth(player);
         renderAttackFrame(map, activeEnemies);
         System.out.println();
-        System.out.println("java.Game Over! You lost all lives! You made it to wave " + waveNumber);
+        System.out.println("Game Over! You lost all lives! You made it to wave " + waveNumber);
     }
 
     public static void sleep(int time){
@@ -107,7 +107,7 @@ public class Renderer {
     }
 
     public void renderWaveNumber(int waveNumber, String phase){
-        System.out.println("java.Wave " + waveNumber + " | Phase: " + phase);
+        System.out.println("Wave " + waveNumber + " | Phase: " + phase);
     }
 
     public void renderBuildPhase(int waveNumber, Player player, Map map, String[][] view){
@@ -138,7 +138,7 @@ public class Renderer {
                 
                 You have to defend your garden from enemies.
                 
-                java.Game is played in turns. While a wave is active, you can't place a tower, you can only spectate.
+                Game is played in turns. While a wave is active, you can't place a tower, you can only spectate.
                 Before each wave you are allowed to place a tower. Using arrow keys navigate the map, selected
                 tile will be marked as "_". When you decide to place a tower, press T. You will then be asked
                 to select what tower you want to purchase. Keep in mind that you have a limited budget to
